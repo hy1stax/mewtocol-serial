@@ -1,6 +1,7 @@
 //This lib could treat as node version serialport assistance.
 //Form panasonic mewtocol plc communication.
 //In many cases, the plc connection is serialport.
+//You could download this file and simple add your code at the end of program.
 
 const { SerialPort } = require('serialport');
 //Default serialport configuration
@@ -121,3 +122,18 @@ function ReadDT(Start,End){
     console.log('Message send fail: ' + err.message+'\n');
   }
 }
+
+//Export functions, if you would like to using outside function.
+module.exports = {
+	PlcVer,
+	ReadOne,
+	RelayON,
+	RelayOff,
+	ReadMulti,
+	WriteMultiON,
+	WriteMultiOFF,
+	ReadDT
+}
+
+//If you would like to use directly, using following examples.
+//ReadDT('0001','0010')
