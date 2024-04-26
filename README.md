@@ -1,4 +1,4 @@
-### Install
+# Install
 
 This is a lib for panasonic mewtocol protocol via serial communication.
 A altanatives for serial assistance in nodejs.
