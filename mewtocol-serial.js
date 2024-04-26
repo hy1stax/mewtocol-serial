@@ -132,7 +132,8 @@ module.exports = {
 	ReadMulti,
 	WriteMultiON,
 	WriteMultiOFF,
-	ReadDT
+	ReadDT, 
+	listports
 }
 
 //If you would like to use directly, using following examples.
