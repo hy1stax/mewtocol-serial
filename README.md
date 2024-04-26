@@ -4,10 +4,10 @@ This is a lib for panasonic mewtocol protocol via serial communication.
 A altanatives for serial assistance in nodejs.
 
 # Usage
-The lib is a serials functions.
-Before you go, please modify your serial communication parameters in global variances.
+The lib is a serials functions.<br>
+Before you go, please modify your serial communication parameters in global variances.<br>
 
-The avaliable function as below:
+The avaliable function as below:<br>
 Get plc version:
 -PlcVer()
 Read contact status:
