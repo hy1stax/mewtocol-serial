@@ -8,6 +8,7 @@ const { SerialPort } = require('serialport');
 const defaultport = "COM2";
 const defaultBaudRate = 9600;
 const port = new SerialPort({ path: defaultport, baudRate:defaultBaudRate, autoOpen: false });
+/*
 port.open(function (err) {
   if (err) {
     console.log('Port open fail: ' + err.message + "\n");
@@ -22,6 +23,7 @@ port.on('error', err => {
 port.on('data', data => {
   console.log('Data received: ' + data + "\n");
 });
+*/
 
 
 //Listing system avaliable ports.

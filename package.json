@@ -1,6 +1,6 @@
 {
   "name": "mewtocol-serial",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "description": "Panasonic mewtocol via serial",
   "main": "mewtocol-serial.js",
